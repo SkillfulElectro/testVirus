@@ -1,0 +1,37 @@
+@font-face {
+    font-family:"Dastnevis" ;
+    src: url(Far_DastNevis.otf);
+    src: url(Far_DastNevis.otf)format('opentype')
+}
+@font-face {
+    font-family:"nast" ;
+    src: url(Nastaliq.ttf);
+    src: url(Nastaliq.ttf)format('truetype')
+}
+body{
+    font-family: Dastnevis
+}
+h1{
+    font-size: medium;
+    background-image: url(https://cdn.dribbble.com/users/1040798/screenshots/15685874/media/aa9588469e19517c2b94b1addd15d11d.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    text-align: center;
+    color:white;
+}
+.span{
+    border:10px solid rgba(0, 0, 0, 0.204);
+    background-color: rgba(0, 0, 0, 0.296);
+    padding: 5px;
+    font-family: Dastnevis;
+}
+.ul{
+    list-style-type: none;
+}
+.butt{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/4a/Color_changing_gradient_rainbow.gif?20211104064853);
+    border: none;
+    font-family: Dastnevis;
+}
+.li .a :hover{background-color: black;color: azure;}
